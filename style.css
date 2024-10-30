@@ -1,0 +1,117 @@
+@charset "utf-8";
+@font-face {
+	font-family: "Montserrat Bold";
+	src: url("../font/Montserrat-Bold.ttf");
+}
+
+/* CSS Document */
+.portfolio{
+	background: #F29EB5;
+	background-image: url("../img/Union.png");
+	height: 100px;
+	
+}
+
+.logo{
+	display:flex;
+	alialign-items: center;
+	justify-content: flex-start;
+
+}
+.logo img{
+	width: 70%;
+	height: 80px;
+
+}
+.logo img:hover{
+	width: 80%;
+	height: 90px;
+}
+
+.gioithieu {
+	padding: 10px;
+	background:#FBF9EF;
+	
+	
+}
+.gioithieu h1 {
+	padding-top:50px;
+	font-family: 'Montserrat Bold';
+	font-size: 46px;
+	color: #F29EB5;
+	line-height: 1em;
+
+}
+
+.gioithieu p {
+	
+		font-family: 'Montserrat Medium';
+		font-size: 18px;
+		color:#F29EB5 ;
+		line-height: 1.5em;
+}
+
+.img2 img{
+	padding-top: 50px;
+	margin-left: 60px;
+	margin-top:0;
+	width: 100%;
+	display: flex;
+	justify-content:flex-end;
+	align-items:flex-end;
+	 
+}
+
+.button a{
+	text-decoration: none;
+
+}
+
+.button p{
+	font-family: 'Montserrat Medium';
+	align-items: center;
+	justify-content: center;
+	border: 10px;
+	width: 35%;
+	height: 40px;
+	background: #A6E1DF;
+	color: white;
+	padding: 0;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	font-size: 16px;
+	font-weight: 900;
+	box-shadow: 1px 5px 5px rgba(0.1,0.1,0.1,0.1);
+}
+
+.button p:hover{
+	
+	background: #FBF9EF;
+	color: #A6E1DF;
+	
+}
+
+.icon-ss a 
+{
+	color: white;
+	text-decoration: none;
+	background: #F76F94;
+	margin:5px;	
+	padding: 0;
+	border-radius:50%;
+	text-align: center;
+	width: 40px; 
+	height: 40px;
+	line-height: 40px;
+	display: inline-block
+}
+.icon-ss a:hover { 
+	
+	background: #A6E1DF
+} 
+.img1 {
+	align-content: center;
+	
+	
+}
